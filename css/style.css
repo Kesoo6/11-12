@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar{
+    width:100%;
+    height:70vh;
+    background-image: url(https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:10px;
+}
+.logo{
+    font-size:xx-large;
+    font-weight: 700;
+    cursor: pointer;
+}
+.logo span{
+    color:rgb(221, 175, 23);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(221, 175, 23);
+    transition: .3s;
+}
+.imgtitle{
+    padding-top: 8%;
+    text-align: center;
+}
+.imgtitle p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+.imgtitle h1{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.imgtitle small{
+    color:white;
+}
+.button{
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(221, 175, 23);
+    padding:12px 30px;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.button:hover{
+    transform: scale(0.9);
+}
+.button1{
+    border-radius: 30px;
+    padding:12px 30px;
+    background-color:rgba(255, 255, 255, 0);
+    border: 1px rgb(221, 175, 23) solid;
+    color:rgb(221, 175, 23);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.button1:hover{
+    transform: scale(0.9);
+}
+.container{
+    width:100%;
+    height:30vh;
+    text-align: center;
+    margin-top: 30px;
+}
+section{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding-top:15px;
+    text-transform: capitalize;
+}
+.logo1{
+    font-size:xx-large;
+    font-weight: 700;
+    color:rgb(82, 136, 207);
+}
+.logo2{
+    font-size:xx-large;
+    font-weight: 700;
+    color:rgb(56, 50, 37);
+}
+.logo3{
+    font-size:xx-large;
+    font-weight: 700;
+    color: rgb(255, 196, 0);
+}
+.logo4{
+    font-size:xx-large;
+    font-weight: 700;
+    background-color: rgb(29, 75, 161);
+    width:15%;
+    margin-left: 43%;
+    border-radius: 50%;
+    color:white;
+}
+.container small{
+    color:rgb(46, 46, 46);
+    font-weight: bold;
+}
+h4{
+    color: rgb(19, 19, 19);
+}
+
+.box{
+    background-color: rgba(105, 105, 105, 0.158);
+    width:100%;
+    padding-top: 50px;
+    height:70vh;
+}
+.box section{
+    display:flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.box h2{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.box .p{
+    color:rgb(133, 133, 133);
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+.box section p{
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(66, 66, 66);
+}
+.box section span{
+    font-size: xx-large;
+    color: rgba(66, 66, 66, 0.493);
+}
+.box section a{
+    color:rgb(221, 175, 23);
+    text-decoration: none;
+}
+.box section a:hover{
+    color:black;
+}
+.cards{
+    width:100%;
+    height:80vh;
+    margin-top: 70px;
+}
+.cards h2{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.cards .p{
+    color:rgb(133, 133, 133);
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+.card1{
+    width:100%;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    justify-content: center;
+    margin-top:10px;
+    gap:10px;
+}
+.img1{
+background-image: url(https://images.pexels.com/photos/11766945/pexels-photo-11766945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+width:60px;
+height:30vh;
+width:30%;
+background-size: cover;
+background-position: center;
+}
+.img2{
+    background-image: url(https://images.pexels.com/photos/11759899/pexels-photo-11759899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width:60px;
+    height:30vh;
+    width:30%;
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+        background-image: url(https://images.pexels.com/photos/20967/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        width:60px;
+        height:30vh;
+        width:30%;
+        background-size: cover;
+        background-position: center;
+}
+.card2{
+    width:100%;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    justify-content: center;
+    margin-top:10px;
+    gap:10px;
+}
+.img4{
+    background-image: url(https://images.pexels.com/photos/1579708/pexels-photo-1579708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width:60px;
+    height:30vh;
+    width:30%;
+    background-size: cover;
+    background-position: center;
+    }
+    .img5{
+        background-image: url(https://images.pexels.com/photos/11743031/pexels-photo-11743031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        width:60px;
+        height:30vh;
+        width:30%;
+        background-size: cover;
+        background-position: center;
+    }
+    .img6{
+            background-image: url(https://images.pexels.com/photos/10550163/pexels-photo-10550163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            width:60px;
+            height:30vh;
+            width:30%;
+            background-size: cover;
+            background-position: center;
+    }
+
+.container2{
+    height:40vh;
+    width:100%;
+    background-color: rgb(14, 14, 54);
+    margin-top: 50px;
+}
+.container2 article{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top:70px;
+    text-transform: capitalize;
+}
+.img7{
+    width:70px;
+    height:70px;
+    margin-left: 47%;
+    background-image: url(https://images.pexels.com/photos/39866/entrepreneur-startup-start-up-man-39866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.container2 article .comment{
+    color:white;
+    font-weight:200;
+    font-size: medium;
+    padding-top:1%;
+}
+.comment span{
+  font-weight: bold;  
+  padding-top:8px;
+}
+.container3{
+    width:100%;
+    height:70vh;
+   margin-top: 50px;
+}
+.container3 h2{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.container3 .p{
+    color:rgb(133, 133, 133);
+    margin-bottom: 50px;
+    margin-left: 15%;
+}
+.heading{
+    color:rgb(43, 43, 43);
+    font-weight: 700;
+    font-size: large;
+    padding-top:10px;
+}
+.views{
+    color: rgb(104, 104, 104);
+    font-size: small;
+    font-weight: lighter;
+    padding-top:10px;
+}
+.views i{
+    color:rgb(255, 196, 0);
+}
+.views i:hover{
+    color:rgb(163, 125, 0);
+}
+.views span{
+    text-decoration: none;
+    cursor: pointer;
+}
+.views span:hover{
+    color: black;
+    text-decoration: underline;
+}
+.paragraph{
+    color: rgb(104, 104, 104);
+    font-size: small;
+    font-weight: lighter;
+    padding-top:10px;
+}
+.bb{
+display: flex;
+justify-content:center;
+align-items: center;
+text-transform: capitalize;
+
+}
+
+.box10 .images1{
+background-image: url(https://images.pexels.com/photos/67857/daisy-flower-spring-marguerite-67857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-position: center;
+background-size: cover;
+width:100%;
+height:25vh;
+justify-content: center;
+padding-top:10px;
+}
+.box11 .images2{
+    background-image: url(https://images.pexels.com/photos/2058498/pexels-photo-2058498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:25vh;
+    justify-content: center;
+    padding-top:10px;
+    }
+
+    .box12 .images3{
+        background-image: url(https://images.pexels.com/photos/673857/pexels-photo-673857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center;
+        background-size: cover;
+        width:100%;
+        height:25vh;
+        justify-content: center;
+        padding-top:10px;
+        }
+        
+.box10{
+    margin-left:10px;
+   
+}
+.box11{
+    margin-left:10px;
+   
+}
+.box12{
+    margin-left:10px;
+    margin-right: 10px;
+   
+}
+.bb a i{
+    padding-top: 10px;
+}
+.container3 .bb a{
+    text-decoration: none;
+    color:rgb(109, 109, 109);
+}
+.container3 .bb a:hover{
+    color:rgb(255, 196, 0);
+}
+
+.container4{
+    width:100%;
+    height:70vh;
+    background-color: rgb(14, 14, 54);
+    margin-top:50px;   
+}
+.title2{
+    text-align: center;
+}
+.title2 .h1{
+    color: white;
+    font-weight: 700;
+    font-size:xx-large;
+    text-transform: uppercase;
+    gap:3px;
+    padding-top: 20px;
+}
+.title2 small{
+    color: white;
+    padding-top: 10px;
+    font-size: small;
+    font-weight: 400;
+}
+aside{
+    text-align: center;
+    margin-top: 5px;
+    color:rgb(95, 95, 95);
+}
+aside a{
+    color: rgb(221, 175, 23);
+}
+aside a:hover{
+    color:black;
+}
+.footer{
+  padding-top: 70px;
+  padding-left:10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer i{
+color:rgb(221, 175, 23);
+}
+.footer i:hover{
+    color: black;
+}
+.footer .address{
+    color: white;
+    cursor: pointer;
+}
+.footer .mail{
+    color: white;
+    cursor: pointer;
+}
+.footer .phone{
+    color: white;
+    cursor: pointer;
+}
+
+form{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+form button{
+    border: none;
+    background: none;
+    color: rgb(221, 175, 23)  ;
+    border:1px solid rgb(221, 175, 23) ;
+    border-radius: 30px;
+    width:10%;
+    cursor: pointer;
+}
+
+.form .input-box input{
+    outline:none;
+    border:1px solid rgb(221, 175, 23)  ;
+    background: none;
+    background: none;
+}
+.cont-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.form .input-box2 input{
+    width:301px;
+    outline:none;
+    border:1px solid rgb(221, 175, 23)  ;
+    background: none;
+}
+
+.form .input-box3 input{
+    width:301px;
+    outline:none;
+    border:1px solid rgb(221, 175, 23);
+    height:80px;
+    background: none;
+    
+}
+.cont-2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media(max-width:750px){
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+        }
+        .container section{
+            justify-content: center;
+            flex-direction: column;
+        }
+        .box section{
+            flex-direction: column;
+        }
+        .card1{
+            flex-direction: column;
+        }
+        .card2{
+            flex-direction: column;
+        }
+        .container3{
+            flex-direction: column;
+            display: flex;
+        }
+}
